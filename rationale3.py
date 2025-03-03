@@ -13,7 +13,7 @@ client = OpenAI(
 
 BASE_TEXT_PROMPTS = """You will get a text {text} that contains a specific compound word {compound} and a series of images and principles. These principles are why images can represent the type and meaning of compound in the text. A set of principles {principle1},{principle2},{principle3},{principle4},{principle5} correspond to 'image1','image2','image3','image4','image5'. # Use these principles to judge which image best matches the meaning of {compound} in the {text}.
 ###Output
-# These five x's are different. The range is 1 to 5. You must output in this format : imagex imagex imagex imagex imagex.No other output is required"""
+"""
 
 def image_to_base64(image_path):
     """将图片文件转换为 Base64 编码"""
