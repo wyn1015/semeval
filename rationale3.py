@@ -10,7 +10,7 @@ client = OpenAI(
     base_url="https://api-inference.modelscope.cn/v1/",  # 替换为实际的 API 地址
     api_key="",  # 替换为你的 ModelScope Token
 )
-
+# 示例，具体得根据语言不同，进行修改
 BASE_TEXT_PROMPTS = """You will get a text {text} that contains a specific compound word {compound} and a series of images and principles. These principles are why images can represent the type and meaning of compound in the text. A set of principles {principle1},{principle2},{principle3},{principle4},{principle5} correspond to 'image1','image2','image3','image4','image5'. # Use these principles to judge which image best matches the meaning of {compound} in the {text}.
 ###Output
 """
