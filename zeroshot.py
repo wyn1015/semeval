@@ -10,7 +10,7 @@ client = OpenAI(
     api_key="",  # 替换为你的 OpenAI API 密钥
     base_url="https://api-inference.modelscope.cn/v1/"  # OpenAI API 的默认地址
 )
-
+#示例，具体得根据语言不同，进行修改
 # BASE_TEXT_PROMPTS = """You will get a text {text} that contains a specific compound word {compound} and a series of images. You must output the image which best matches the meaning of {compound} in the {text}，not compound itself.
 # ###Output
 # """
